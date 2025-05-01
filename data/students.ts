@@ -20,10 +20,17 @@ const getRandomAvatar = (gender: "male" | "female") => {
 
 export const students: Student[] = [
   {
-    name: "Albertina Einstein",
+    name: "Amit Kumar",
     class: "Q7",
     dob: "2008-05-12",
-    gender: "female",
-    avatar: getRandomAvatar("female"),
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  {
+    name: "Nishant Malik",
+    class: "Q7",
+    dob: "2008-05-13",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
   },
 ]
