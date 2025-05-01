@@ -34,17 +34,17 @@ export const students: Student[] = [
     avatar: getRandomAvatar("male"),
   },
   {
-    name: "PAWAN VISHWAKARMA",
+    name: "PAWAN VISHWAKARMA ma",
     class: "Q7",
     dob: "2005-10-04",
-    gender: "male",
+    gender: "trans",
     avatar: getRandomAvatar("male"),
   },
   {
     name: "ADITYA KUMAR SRIVASTAVA",
     class: "Q7",
     dob: "2006-01-25",
-    gender: "female",
-    avatar: getRandomAvatar("female"),
+    gender: "male",
+    avatar: getRandomAvatar("male"),
   },
 ]
