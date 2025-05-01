@@ -1,4 +1,4 @@
-export interface Student {
+eexport interface Student {
   name: string
   class: string
   dob: string
@@ -25,5 +25,26 @@ export const students: Student[] = [
     dob: "2008-05-12",
     gender: "female",
     avatar: getRandomAvatar("female"),
+  },
+  {
+    name: "PRINCE KUMAR SINGH",
+    class: "Q7",
+    dob: "2006-08-04",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  {
+    name: "PAWAN VISHWAKARMA",
+    class: "Q7",
+    dob: "2005-10-04",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  {
+    name: "ADITYA KUMAR SRIVASTAVA",
+    class: "Q7",
+    dob: "2006-01-25",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
   },
 ]
