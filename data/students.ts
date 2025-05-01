@@ -1,4 +1,4 @@
-export interface Student {
+eexport interface Student {
   name: string
   class: string
   dob: string
@@ -34,10 +34,10 @@ export const students: Student[] = [
     avatar: getRandomAvatar("male"),
   },
   {
-    name: "PAWAN VISHWAKARMA ma",
+    name: "PAWAN VISHWAKARMA",
     class: "Q7",
     dob: "2005-10-04",
-    gender: "trans",
+    gender: "male",
     avatar: getRandomAvatar("male"),
   },
   {
