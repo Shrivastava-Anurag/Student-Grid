@@ -27,6 +27,7 @@ export const students: Student[] = [
     avatar: getRandomAvatar("male"),
   },
 
+  
   {
     name: "Abhishek",
     class: "Q7",
@@ -38,6 +39,38 @@ export const students: Student[] = [
     name: "aryan raj",
     class: "Q7",
     dob: "2006-03-10",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  
+  {
+    name: "Afser uddin mozumder",
+    class: "Q7",
+    dob: "2004-06-07s",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  
+  {
+    name: "Amit kumar",
+    class: "Q7",
+    dob: "2007-02-10s",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  
+  {
+    name: "Afroz Alam",
+    class: "Q7",
+    dob: "2006-05-25",
+    gender: "male",
+    avatar: getRandomAvatar("male"),
+  },
+  
+  {
+    name: "Uttam kumar",
+    class: "Q7",
+    dob: "2005-10-12s",
     gender: "male",
     avatar: getRandomAvatar("male"),
   },
